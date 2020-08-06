@@ -19,10 +19,13 @@ tomcat8.5-redis-session-manager.jar
       maxInactiveInterval="60" /> 
 ```
 
-#### 0x03 Send the request with PoC, when users login again, there is Remote Code Execution.
+#### 0x03 Writing the Java Serialization Gadget into Redis
+<img src="https://github.com/pyn3rd/Apache-Tomcat-Redis-Remote-Code-Execution/blob/master/redis-rce2.png">
 
-<img src="https://github.com/pyn3rd/Apache-Tomcat-MongoDB-Remote-Code-Execution/blob/master/tomcat-mongo.gif">
 
-#### 0x04 start Tomcat Server, when users login the website, their login sessions will be stored in MongoDB Server, as you know, there are so many unauthorized MongoDB Servers on the Internet, just search them by Shodan :)
-<img src="https://github.com/pyn3rd/Apache-Tomcat-MongoDB-Remote-Code-Execution/blob/master/shodan.png">
+#### 0x04 When users login again, there is Remote Code Execution.
+
+<img src="https://github.com/pyn3rd/Apache-Tomcat-Redis-Remote-Code-Execution/blob/master/redis-rce1.png">
+
+
 
