@@ -19,7 +19,7 @@ tomcat8.5-redis-session-manager.jar
       maxInactiveInterval="60" /> 
 ```
 
-#### 0x03 Write the Java Serialization Gadget into Redis
+#### 0x03 Write the Java Serialization Gadget into Redis with the PoC.
 <img src="https://github.com/pyn3rd/Apache-Tomcat-Redis-Remote-Code-Execution/blob/master/redis-rce2.png">
 
 
